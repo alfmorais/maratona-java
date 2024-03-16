@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.introducao;
 /**
  * Isso e um cometario <b>JavaDoc</b>
  */
-public class OlaDevDojo {
+public class Aula01OlaDevDojo {
     // Isso e um comentario de uma linha
     /*
         Isso tambem e um comentario
