@@ -15,12 +15,13 @@ public class Aula02TiposPrimitivos {
          */
         int age = 31;
         double salaryDouble = 2000;
-        float salaryFloat = 2500;
+        float salaryFloat = 2500.0f;
         char caracter = '\u0041';
         byte ageByte = 127;
-        short ageShort = 10;
-        long bigNumber = 10_000_000;
+        short ageShort = 32_000;
+        long bigNumber = 10_000_000L;
         boolean isMoreThanEighteen = false;
+        String name = "Alfredo";
 
         System.out.println("Idade (int): " + age);
         System.out.println("Salario (double): " + salaryDouble);
@@ -30,5 +31,6 @@ public class Aula02TiposPrimitivos {
         System.out.println("Idade (short): " + ageShort);
         System.out.println("Grande Número (long): " + bigNumber);
         System.out.println("Maior de 18 (boolean): " + isMoreThanEighteen);
+        System.out.println("Nome (String): " + name);
     }
 }
