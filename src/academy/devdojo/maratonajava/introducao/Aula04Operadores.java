@@ -4,6 +4,8 @@ public class Aula04Operadores {
     public static void main(String[] args) {
         // Operadores: + - * /
         // Relacionais: % > < >= <= == !=
+        // Lógico: && || !
+        // Atribuição: = += -= *= /= %=
         int numberOne = 10;
         int numberTwo = 20;
 
@@ -18,6 +20,20 @@ public class Aula04Operadores {
         boolean lessOrEqualThan = numberOne <= numberTwo;
         boolean isEqual = numberOne == numberTwo;
         boolean isDifferent = numberOne != numberTwo;
+        boolean andOperation = true && true;
+        boolean orOperation = true || false;
+        boolean notOperation = !true;
+        double bonus = 1800;
+        double additionalBonus = 500;
+        bonus += additionalBonus;
+        bonus -= additionalBonus;
+        bonus *= additionalBonus;
+        bonus /= additionalBonus;
+
+        int contador = 0;
+        contador += 1;
+        contador++;
+        contador--;
 
         System.out.println("Soma: 10 + 20 = " + sum);
         System.out.println("Subtração: 10 - 20 = " + sub);
@@ -30,5 +46,8 @@ public class Aula04Operadores {
         System.out.println("Menor ou Igual a: 10 <= 20 = " + lessOrEqualThan);
         System.out.println("Igual: 10 == 20 = " + isEqual);
         System.out.println("Diferente de: 10 != 20 = " + isDifferent);
+        System.out.println("And: true && true = " + andOperation);
+        System.out.println("Or: true || false = " + orOperation);
+        System.out.println("Not: !true = " + notOperation);
     }
 }
